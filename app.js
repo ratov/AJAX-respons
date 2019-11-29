@@ -95,13 +95,18 @@ btnAddPost.addEventListener('click', (e) => {
 
 
 
+//CORS
+// function getGmail(cb) {
+//   const xhr = new XMLHttpRequest();
+//   xhr.open('GET', 'http://gmail.com');
 
+//   xhr.addEventListener('load', () => {
+//     console.log(xhr.responseText);
+//   });
 
+//   xhr.addEventListener('error', () => {
+//     console.log('error');
+//   });
 
-
-// console.log(1);
-// console.log(2);
-// setTimeout(() => {
-//   console.log(3);
-// }, 0);
-// console.log(4);
+//   xhr.send();
+// }
